@@ -1,4 +1,10 @@
-setfpscap(500)
+wait(1.2)
+game.StarterGui:SetCore("SendNotification", {
+Title = "BOBRSENSE.RR"; -- 
+Text = "Bobrsense injected"; -- 
+Icon = "rbxassetid://6798940894"; -- t
+Duration = 5; -- 
+})
 loadstring(game:HttpGet("https://pastebin.com/raw/3eVRY4B4"))()
 getgenv().Key = Enum.KeyCode.Q
 getgenv().Prediction = 0.1306942
