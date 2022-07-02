@@ -1,5 +1,5 @@
 local bitch, returned = pcall(function() 
-    return game:HttpGet("https://raw.githubusercontent.com/capyb4r4/bobr/main/ware")
+    return game:HttpGet("https://raw.githubusercontent.com/capyb4r4/bobr/main/src")
 end)
 if not (bitch and returned and #returned ~= 0) then 
     return plr:Kick("Please open the damn game.")
