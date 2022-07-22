@@ -1,5 +1,4 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/capyb4r4/bobr/main/theme", true))()
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/capyb4r4/bobr/main/maln", true))()
 
 local day = os.date("%d")
 local month = os.date("%B")
@@ -1641,7 +1640,7 @@ end
      end
  end)
  
- 
+ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/capyb4r4/bobr/main/maln", true))()
  
  
  
