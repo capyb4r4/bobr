@@ -142,7 +142,7 @@ end
 
 
 
-local main = library:Load({Name = "BÓBRWARE || "..month..dd4..day..djdsd..dd4..year , Theme = "Dark", SizeX = 440, SizeY = 550, ColorOverrides = {}})
+local main = library:Load({Name = "BÓBRWARE || "..month..dd4..day..djdsd..dd4..year , Theme = "Light", SizeX = 440, SizeY = 550, ColorOverrides = {}})
 local aimbot = main:Tab("Rage")
 local legit = main:Tab("Legit")
 local visuals = main:Tab("Visuals")
