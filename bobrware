@@ -283,10 +283,9 @@ end})
 
 
 settingsuiforui:label("Credits:")
-settingsuiforui:label("Scripting: secure#0002")
-settingsuiforui:label("Ui: Flood")
+settingsuiforui:label("Scripting: BOBROWNER")
+settingsuiforui:label("Ui: CAPYBARAOWNER")
 settingsuiforui:label("Contacts")
-settingsuiforui:label("funeral#6969, secure#0002")
 settingsuiforui:label("^")
 
 getgenv().selfchamfollow = false
@@ -1147,7 +1146,7 @@ mouse.KeyDown:Connect(function(k)
 
 
         if getgenv().chatmode then
-            local A_1 = "Faygo : Unlocked" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+            local A_1 = "BOBR : Unlocked" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
         end
 
         if getgenv().cameramode then
@@ -1155,7 +1154,7 @@ mouse.KeyDown:Connect(function(k)
         end
         if getgenv().notify then
             CoreGui:SetCore("SendNotification", {
-	Title = "Faygo";
+	Title = "BOBR";
 	Text = "Unlocked";
 	Duration = 2.5;
 })
@@ -1184,12 +1183,12 @@ end
 
         
          if getgenv().chatmode then
-            local A_1 = "Faygo : "..tostring(Plr.Character.Humanoid.DisplayName) local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+            local A_1 = "BOBR : "..tostring(Plr.Character.Humanoid.DisplayName) local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
          end
 
                 if getgenv().notify then
             CoreGui:SetCore("SendNotification", {
-	Title = "Faygo";
+	Title = "BOBR";
 	Text = "Locked:"..tostring(Plr.Character.Humanoid.DisplayName) ;
 	Duration = 1.5;
 })
@@ -1611,7 +1610,7 @@ end
          if Target ~= nil then
              AimlockTarget = Target
              if getgenv().Notificationmode then
-             notif:Notification("Faygo","Locked:"..AimlockTarget.DisplayName,"Code","Code",2.4) 
+             notif:Notification("BOBR","Locked:"..AimlockTarget.DisplayName,"Code","Code",2.4) 
              end
      end
      else
@@ -1619,7 +1618,7 @@ end
          if MousePressed ~= false then 
              MousePressed = false 
              if getgenv().Notificationmode then
-             notif:Notification("Faygo","Unlocked","Code","Code",5) 
+             notif:Notification("BOBR","Unlocked","Code","Code",5) 
              end
              Line2.Visible = false
          end
